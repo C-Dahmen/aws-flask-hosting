@@ -9,20 +9,28 @@ i. Public IP address: 100.27.46.102.  SSH port: 2200
 ii. Complete URL to the hosted web application: http://100.27.46.102
 
 iii. The following configuration changes were made:
-  Updated all available packages with
+
+  Updated all available packages with:
   ``` bash
   sudo apt-get packages
   ```
-  Upgraded all available packages with
+  Upgraded all available packages with:
   ```bash
   sudo apt-get upgrade
   ```
-  Changed SSH port from default port 22 to 2200 using
+  Changed SSH port from default port 22 to 2200 using:
   ```bash
   sudo nano /etc/ssh/sshd_config
   ```
-  and changing the #Port 22  to Port 2200
-  In lightsail.aws.amazon.com added port 2200 to the firewall
+  and changing the port from:
+  ```bash
+  Port 22
+  ```  
+  to
+  ```bash
+  Port 2200
+  ```
+  Added port 2200 to the list of allowed ports in lightsail.aws.amazon > networking > firewall
   Created user called grader using
    ```bash
    sudo adduser grader
