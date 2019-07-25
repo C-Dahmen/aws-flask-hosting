@@ -91,3 +91,10 @@ iii. The following configuration changes were made:
   ```
   Installed necessary packages for app to run using pip
   Added a database folder and changed permissions for both the database and the database folder for the default user www-data to be able to access and write to the database
+
+iv. Third party resources:
+  *https://aws.amazon.com/premiumsupport/knowledge-center/new-user-accounts-linux-instance/
+  *https://flask.palletsprojects.com/en/1.1.x/patterns/sqlite3/
+  *https://modwsgi.readthedocs.io/en/develop/
+  *https://flask.palletsprojects.com/en/1.1.x/deploying/mod_wsgi/#creating-a-wsgi-file
+  *https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
