@@ -89,10 +89,11 @@ iii. The following configuration changes were made:
   ``` bash
    source venv/bin/activate
   ```
-  Installed necessary packages for app to run using pip
+  Installed necessary packages for app to run using pip.
   Added a database folder and changed permissions for both the database and the database folder for the default user www-data to be able to access and write to the database.
 
-iv. Third party resources:
+iv.Third party resources:
+
  * https://aws.amazon.com/premiumsupport/knowledge-center/new-user-accounts-linux-instance/
  * https://flask.palletsprojects.com/en/1.1.x/patterns/sqlite3/
  * https://modwsgi.readthedocs.io/en/develop/
